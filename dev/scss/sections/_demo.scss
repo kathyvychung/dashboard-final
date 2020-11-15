@@ -2,29 +2,18 @@
     Demo
 ============= */
 
-.stick{
-    border-top: 10px solid $brown;
-    width: 800px;
-   
- }
- 
- .greenCircle{
-     height: 200px;
-     width: 200px;
-     border-radius: 50%;
-     background-color: $green;
- }
- 
- .whiteCircle{
-     height: 200px;
-     width: 200px;
-     border-radius: 50%;
-     background-color: $cream;
- }
- 
- .pinkCircle{
-     height: 200px;
-     width: 200px;
-     border-radius: 50%;
-     background-color: $pink;
- }
+#demo{
+    display: grid;
+    grid-template-columns: auto 80% auto;
+    grid-template-areas: ". demo .";
+    background-color: #FFFDEC;
+
+    >div{
+        grid-area: demo;
+
+        svg{
+            // border: 3px solid #000;
+
+        }
+    }
+}

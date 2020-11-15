@@ -1,25 +1,25 @@
-// import {gsap} from "gsap";
+import {gsap} from "gsap";
 
-
+gsap.set("#neck",{transformOrigin: "center"})
 /* -----------------
     Demo Script
 ----------------- */
+const giraffeTL = gsap.timeline();
+giraffeTL.from("#neck",{duration: 3, y: 600, ease: "none"}, "swing")
+        .from("#first",{duration: 2, alpha:0}, "swing")
+        .from("#second",{duration: 2, alpha:0, delay: 1}, "swing")
+        .from("#third",{duration: 2, alpha:0, delay: 2}, "swing")
+        .from("#tail",{duration:1, rotation:20, transformOrigin:"left top", repeat:3, ease: "none"}, "swing")
+        .to("#tail",{duration:1, rotation:0, transformOrigin:"left top", repeat:3, ease: "none"}, "swing")
+        .to("#part1",{ duration: 0.1, alpha: 0})
+        .from("#part2",{duration: 0.1, alpha:0})
+        .from("#neck2",{duration: 3, y: 600},"rise")
+        .from("#leaf1",{duration: 3, y: 600},"rise")
+        .from("#leaf2",{duration: 3, y: 600},"rise")
+        .from("#completion",{duration: 2.5, y: 500},"rise")
+        .from("#ear2",{rotation:20, transformOrigin:"left top"});
 
-// var timeOfAnimation = 2;
 
-// var boxAnimationTL = gsap.timeline();
-
-// boxAnimationTL.to(".stick",{duration: timeOfAnimation, rotation: 360, x:500, y:400})
-
-//             .from(".circle-1",{duration: timeOfAnimation, x:-800, y:300})
-//             .to(".circle-1",{duration: timeOfAnimation, x:800, y:300})
-
-//             .from(".circle-2",{duration: timeOfAnimation, x:-700, y:100})
-//             .to(".circle-2",{duration: timeOfAnimation, x:700, y:100},"-=0.5")
-
-//             .from(".circle-3",{duration: timeOfAnimation, x:-550, y:-100})
-//             .to(".circle-3",{duration: timeOfAnimation, x:550, y:-100},"-=0.5")
-
-//             .to(".circle-3",{duration: 1, alpha:0})
-//             .to(".circle-2",{duration: 1, alpha:0})
-//             .to(".circle-1",{duration: 1, alpha:0});
+export function giraffeAnimation(){
+    return giraffeTL;
+}

@@ -379,24 +379,10 @@ textarea {
 /* =============
     Demo
 ============= */
-.stick {
-  border-top: 10px solid #A52A2A;
-  width: 800px; }
-
-.greenCircle {
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  background-color: #50A514; }
-
-.whiteCircle {
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  background-color: #fff8dc; }
-
-.pinkCircle {
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
-  background-color: #F3BFC6; }
+#demo {
+  display: grid;
+  grid-template-columns: auto 80% auto;
+  grid-template-areas: ". demo .";
+  background-color: #FFFDEC; }
+  #demo > div {
+    grid-area: demo; }
