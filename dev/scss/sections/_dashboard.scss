@@ -1,0 +1,21 @@
+/* =============
+    Demo
+============= */
+
+#dashboard{
+    // display: grid;
+    // grid-template-columns: auto 10% auto;
+    // grid-template-areas: ". dashboard .";
+
+    >div{
+        grid-area: dashboard;
+        display: flex;
+        justify-content: center;
+        align-items: cdnter;
+        height: 100vh;
+
+        svg{
+            width: 100%;
+        }
+    }
+}
