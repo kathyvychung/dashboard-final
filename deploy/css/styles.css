@@ -426,13 +426,16 @@ textarea {
 /* =============
     Demo
 ============= */
-#dashboard > div {
+#dashboard-container {
+  display: grid;
+}
+#dashboard-container > div {
   grid-area: dashboard;
   display: flex;
   justify-content: center;
   align-items: cdnter;
   height: 100vh;
 }
-#dashboard > div svg {
+#dashboard-container > div svg {
   width: 100%;
 }

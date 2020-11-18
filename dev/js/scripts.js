@@ -1,13 +1,12 @@
-// import * as Demo from './demo.js';
 import {gsap} from "gsap";
-// import { GSDevTools } from "gsap/GSDevTools";
+import { GSDevTools } from "gsap/GSDevTools";
 
-// gsap.registerPlugin(GSDevTools);
+import { dashboardAnimation } from "./dashboard.js";
 
-import {giraffeAnimation} from "./dashboard.js"
+gsap.registerPlugin(GSDevTools);
 
 const mainTL = gsap.timeline();
-mainTL.add(giraffeAnimation);
+mainTL.add(dashboardAnimation);
 
 //instantiate GSDevTools with default settings
-// GSDevTools.create();
+GSDevTools.create();

@@ -2,9 +2,9 @@
     Demo
 ============= */
 
-#dashboard{
-    // display: grid;
-    // grid-template-columns: auto 10% auto;
+#dashboard-container{
+    display: grid;
+    // grid-template-columns: auto 50% auto;
     // grid-template-areas: ". dashboard .";
 
     >div{
