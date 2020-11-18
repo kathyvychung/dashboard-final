@@ -10,7 +10,12 @@ loadingScreenTL.fromTo("#outside-thickring",{duration: 1, drawSVG:"0% 30%"}, {dr
                 .from("#bars",{duration: 0.5, alpha: 0, rotation: 340, transformOrigin:"middle"},"bars")
                 .from("#R",{duration: 1, alpha: 0},"bars")
                 .from(".scan",{duration: 2, alpha: 0, drawSVG:"0%"},"load")
-                .fromTo(".extra",{duration: 2, drawSVG:"0% 30%", alpha: 0}, {duration: 2, drawSVG:"100% 100%", ease:"none", repeat: 2, alpha: 1},"load");
+                .fromTo(".extra",{duration: 2, drawSVG:"0% 30%", alpha: 0}, {duration: 2, drawSVG:"100% 100%", ease:"none", repeat: 2, alpha: 1},"load")
+                .to("#loading",{duration: 0.5, alpha:0},"part")
+                .to("#top",{duration: 2, y:"-1000"},"part")
+                .to("#bottom",{duration: 2, y:"1000"},"part")
+                .to("#right",{duration: 2, x:"1500"},"part")
+                .to("#left",{duration: 2, x:"-1500"},"part");
 
 export function loadingScreenAnimation(){
     return loadingScreenTL;
