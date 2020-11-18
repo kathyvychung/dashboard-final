@@ -1,12 +1,12 @@
 import {gsap} from "gsap";
 import { GSDevTools } from "gsap/GSDevTools";
 
-import { dashboardAnimation } from "./dashboard.js";
+import { loadingScreenAnimation } from "./loadingScreen.js";
 
 gsap.registerPlugin(GSDevTools);
 
 const mainTL = gsap.timeline();
-mainTL.add(dashboardAnimation);
+mainTL.add(loadingScreenAnimation);
 
 //instantiate GSDevTools with default settings
 GSDevTools.create();
