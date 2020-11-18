@@ -8,10 +8,10 @@
     // grid-template-areas: ". dashboard .";
 
     >div{
-        grid-area: dashboard;
+        grid-area: loading;
         display: flex;
         justify-content: center;
-        align-items: cdnter;
+        align-items: center;
         height: 100vh;
 
         svg{

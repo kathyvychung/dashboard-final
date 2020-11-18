@@ -1,0 +1,17 @@
+#dashboard-container{
+    display: grid;
+    // grid-template-columns: auto 50% auto;
+    // grid-template-areas: ". dashboard .";
+
+    >div{
+        grid-area: dashboard;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+        svg{
+            width: 100%;
+        }
+    }
+}

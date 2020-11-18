@@ -430,12 +430,26 @@ textarea {
   display: grid;
 }
 #loading-container > div {
-  grid-area: dashboard;
+  grid-area: loading;
   display: flex;
   justify-content: center;
-  align-items: cdnter;
+  align-items: center;
   height: 100vh;
 }
 #loading-container > div svg {
+  width: 100%;
+}
+
+#dashboard-container {
+  display: grid;
+}
+#dashboard-container > div {
+  grid-area: dashboard;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#dashboard-container > div svg {
   width: 100%;
 }
