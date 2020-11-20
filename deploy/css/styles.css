@@ -435,9 +435,11 @@ textarea {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  position: relative;
 }
 #loading-container > div svg {
   width: 100%;
+  position: absolute;
 }
 
 #dashboard-container {
@@ -449,7 +451,9 @@ textarea {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  position: relative;
 }
 #dashboard-container > div svg {
   width: 100%;
+  position: absolute;
 }

@@ -14,8 +14,11 @@
         align-items: center;
         height: 100vh;
 
+        position: relative;
+
         svg{
             width: 100%;
+            position: absolute;
         }
     }
 }
