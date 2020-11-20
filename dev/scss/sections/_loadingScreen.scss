@@ -1,11 +1,7 @@
-/* =============
-    Demo
-============= */
-
 #loading-container{
     display: grid;
-    // grid-template-columns: auto 50% auto;
-    // grid-template-areas: ". dashboard .";
+    grid-template-columns: auto 100% auto;
+    grid-template-areas: ". loading .";
 
     >div{
         grid-area: loading;

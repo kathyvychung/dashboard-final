@@ -423,11 +423,10 @@ textarea {
 /* =============
     Footer
 ============= */
-/* =============
-    Demo
-============= */
 #loading-container {
   display: grid;
+  grid-template-columns: auto 100% auto;
+  grid-template-areas: ". loading .";
 }
 #loading-container > div {
   grid-area: loading;
@@ -444,6 +443,8 @@ textarea {
 
 #dashboard-container {
   display: grid;
+  grid-template-columns: auto 100% auto;
+  grid-template-areas: ". dashboard .";
 }
 #dashboard-container > div {
   grid-area: dashboard;
