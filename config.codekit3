@@ -54,6 +54,14 @@
 		"oAP": "/dev/content/dashboard.html",
 		"oF": 0
 		},
+	"/dev/content/dashboard/border.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/dashboard/border.html",
+		"oF": 0
+		},
 	"/dev/content/loadingScreen.kit": {
 		"cB": 0,
 		"ft": 2048,
