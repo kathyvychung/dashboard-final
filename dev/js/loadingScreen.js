@@ -4,7 +4,8 @@ import { DrawSVGPlugin } from "gsap/DrawSVGPlugin";
 gsap.registerPlugin(DrawSVGPlugin);
 
 const loadingScreenTL = gsap.timeline();
-loadingScreenTL.fromTo("#outside-thickring",{duration: 1, drawSVG:"0% 30%"}, {drawSVG:"70% 100%", ease:"none"})
+export function loadingScreenAnimation(){
+    loadingScreenTL.fromTo("#outside-thickring",{duration: 1, drawSVG:"0% 30%"}, {drawSVG:"70% 100%", ease:"none"})
                 .to("#outside-thickring",{duration: 1, drawSVG:"100%", ease:"none"},"ring")
                 .from("#inside-ring",{duration: 1, drawSVG:"0%", ease:"none", alpha: 0},"ring")
                 .from("#bars",{duration: 0.5, alpha: 0, rotation: 340, transformOrigin:"middle"},"bars")
@@ -16,7 +17,5 @@ loadingScreenTL.fromTo("#outside-thickring",{duration: 1, drawSVG:"0% 30%"}, {dr
                 .to("#bottom",{duration: 2, y:"1000"},"part")
                 .to("#right",{duration: 2, x:"1500"},"part")
                 .to("#left",{duration: 2, x:"-1500"},"part");
-
-export function loadingScreenAnimation(){
     return loadingScreenTL;
 }
