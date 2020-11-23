@@ -7,7 +7,7 @@ import { dashboardAnimation } from "./dashboard.js";
 gsap.registerPlugin(GSDevTools);
 
 const mainTL = gsap.timeline();
-mainTL.add(loadingScreenAnimation)
+mainTL .add(loadingScreenAnimation)
     .add(dashboardAnimation);
 
 //instantiate GSDevTools with default settings
