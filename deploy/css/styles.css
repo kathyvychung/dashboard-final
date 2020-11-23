@@ -423,38 +423,22 @@ textarea {
 /* =============
     Footer
 ============= */
-#loading-container {
+#svg-container {
   display: grid;
-  grid-template-columns: auto 100% auto;
-  grid-template-areas: ". loading .";
+  grid-template-columns: auto 80% auto;
+  grid-template-areas: ". svg-container .";
 }
-#loading-container > div {
-  grid-area: loading;
+#svg-container > div {
+  grid-area: svg-container;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   position: relative;
 }
-#loading-container > div svg {
+#svg-container > div svg {
   width: 100%;
   position: absolute;
-}
-
-#dashboard-container {
-  display: grid;
-  grid-template-columns: auto 100% auto;
-  grid-template-areas: ". dashboard .";
-}
-#dashboard-container > div {
-  grid-area: dashboard;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  position: relative;
-}
-#dashboard-container > div svg {
-  width: 100%;
-  position: absolute;
+  top: 0;
+  left: 0;
 }
