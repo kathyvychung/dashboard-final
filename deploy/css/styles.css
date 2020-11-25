@@ -425,7 +425,7 @@ textarea {
 ============= */
 #svg-container {
   display: grid;
-  grid-template-columns: auto 80% auto;
+  grid-template-columns: auto 90% auto;
   grid-template-areas: ". svg-container .";
 }
 #svg-container > div {
