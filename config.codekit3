@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "33081",
 "files": {
+	"/assets/robinsons.sketch": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/robinsons.sketch",
+		"oF": 0
+		},
 	"/deploy/css/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -74,7 +82,7 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/content/dashboard/circleGauges.html",
 		"oF": 0
 		},
@@ -82,7 +90,7 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/content/dashboard/map.html",
 		"oF": 0
 		},
@@ -90,7 +98,7 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/content/dashboard/mph.html",
 		"oF": 0
 		},
