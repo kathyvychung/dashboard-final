@@ -19,24 +19,12 @@
     }
 
     #background{
-        // display: flex;
-        // justify-content: center;
-        // align-items: center;
-
-        // height: 40vh;
-        // background-position: center;
-		// background-repeat: no-repeat;
-		// background-size: cover;
-        // // display: flex;
-
-        /* Style the video: 100% width and height to cover the entire window */
-    }
-
-    #myVideo {
-        position: fixed;
-        right: 0;
-        bottom: 0;
-        min-width: 100%;
-        min-height: 100%;
+        #myVideo {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 1024px;
+            min-height: 597px;
+        }
     }
 }
