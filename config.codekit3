@@ -62,6 +62,14 @@
 		"oAP": "/dev/content/dashboard.html",
 		"oF": 0
 		},
+	"/dev/content/dashboard/background.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/dashboard/background.html",
+		"oF": 0
+		},
 	"/dev/content/dashboard/bars.kit": {
 		"cB": 0,
 		"ft": 2048,
