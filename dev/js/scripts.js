@@ -9,8 +9,7 @@ gsap.registerPlugin(GSDevTools);
 const mainTL = gsap.timeline();
 
 mainTL.add(loadingScreenAnimation())
-    .add(dashboardAnimation())
-    .add(counterAnimation());
+    .add(dashboardAnimation());
 
 //instantiate GSDevTools with default settings
 GSDevTools.create();
