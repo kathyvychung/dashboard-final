@@ -27,12 +27,28 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/img/background.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/background.mp4",
+		"oF": 0
+		},
 	"/deploy/img/present.mp4": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/present.mp4",
+		"oF": 0
+		},
+	"/deploy/img/travel.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/travel.mp4",
 		"oF": 0
 		},
 	"/deploy/index.html": {
@@ -74,7 +90,7 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/content/dashboard/bars.html",
 		"oF": 0
 		},
