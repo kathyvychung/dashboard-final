@@ -27,28 +27,12 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/deploy/img/background.mp4": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/background.mp4",
-		"oF": 0
-		},
 	"/deploy/img/present.mp4": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/present.mp4",
-		"oF": 0
-		},
-	"/deploy/img/travel.mp4": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/travel.mp4",
 		"oF": 0
 		},
 	"/deploy/index.html": {
@@ -173,6 +157,17 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/dashboard-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/dashboard/map.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dev/js/dashboard/map-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
