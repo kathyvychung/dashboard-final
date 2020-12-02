@@ -27,6 +27,14 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/img/background.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/background.mp4",
+		"oF": 0
+		},
 	"/deploy/img/present.mp4": {
 		"cB": 0,
 		"ft": 8192,
@@ -166,7 +174,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/js/dashboard/map-min.js",
 		"oF": 0,
 		"sC": 3,

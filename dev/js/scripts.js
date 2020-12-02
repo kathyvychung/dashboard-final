@@ -3,7 +3,7 @@ import { GSDevTools } from "gsap/GSDevTools";
 
 import { loadingScreenAnimation } from "./loadingScreen.js";
 import { dashboardAnimation } from "./dashboard.js";
-import { mapAnimation } from "./map.js";
+import { mapAnimation } from "./dashboard/map.js";
 
 gsap.registerPlugin(GSDevTools);
 
