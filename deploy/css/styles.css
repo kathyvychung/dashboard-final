@@ -435,7 +435,6 @@ textarea {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  position: relative;
 }
 #svg-container > div svg {
   width: 100%;
