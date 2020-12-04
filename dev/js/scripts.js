@@ -7,6 +7,8 @@ import { mapAnimation } from "./dashboard/map.js";
 
 gsap.registerPlugin(GSDevTools);
 
+// mapAnimation();
+
 const mainTL = gsap.timeline();
 
 mainTL.add(loadingScreenAnimation())
