@@ -62,6 +62,78 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/content/dashboard.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/dashboard.html",
+		"oF": 0
+		},
+	"/dev/content/dashboard/background.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/dashboard/background.html",
+		"oF": 0
+		},
+	"/dev/content/dashboard/bars.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/dashboard/bars.html",
+		"oF": 0
+		},
+	"/dev/content/dashboard/border.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/dashboard/border.html",
+		"oF": 0
+		},
+	"/dev/content/dashboard/circleGauges.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/dashboard/circleGauges.html",
+		"oF": 0
+		},
+	"/dev/content/dashboard/map.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/dashboard/map.html",
+		"oF": 0
+		},
+	"/dev/content/dashboard/mph.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/dashboard/mph.html",
+		"oF": 0
+		},
+	"/dev/content/loadingScreen.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/loadingScreen.html",
+		"oF": 0
+		},
+	"/dev/content/svg-container.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/content/svg-container.html",
+		"oF": 0
+		},
 	"/dev/global/head.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -85,6 +157,39 @@
 		"oA": 0,
 		"oAP": "/deploy/index.html",
 		"oF": 2
+		},
+	"/dev/js/dashboard.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/dashboard-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/dashboard/map.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/dashboard/map-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/loadingScreen.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/loadingScreen-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/dev/js/scripts.js": {
 		"bF": 4,
@@ -227,6 +332,32 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/dev/scss/sections/_dashboard.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_dashboard.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/dev/scss/sections/_loadingScreen.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_loadingScreen.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/dev/scss/sections/_svg-container.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -285,6 +416,17 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/node_modules/gsap/gsap-core-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/node_modules/gsap/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/gsap/index-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
