@@ -6,8 +6,8 @@ gsap.registerPlugin(DrawSVGPlugin);
 const timeMachineTL = gsap.timeline();
 
 export function timeMachineAnimation(){
-    timeMachineTL.to("#outer-ring",{duration: 0.7, alpha: 0, yoyo:true, repeat:5},"beep")
-            .to("#scan",{duration: 1, alpha: 0, yoyo:true, repeat:5},"beep");
+    timeMachineTL.to("#dashboard",{duration: 2, y:-3000})
+                .from("#time-machine",{duration: 2, y:3000});
         
     return timeMachineTL;
 }
