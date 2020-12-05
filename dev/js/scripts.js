@@ -4,6 +4,7 @@ import { GSDevTools } from "gsap/GSDevTools";
 import { loadingScreenAnimation } from "./loadingScreen.js";
 import { dashboardAnimation } from "./dashboard.js";
 import { mapAnimation } from "./dashboard/map.js";
+import { dialsAnimation } from "./dashboard/dials.js";
 
 gsap.registerPlugin(GSDevTools);
 
@@ -12,8 +13,9 @@ gsap.registerPlugin(GSDevTools);
 const mainTL = gsap.timeline();
 
 mainTL.add(loadingScreenAnimation())
-    .add(dashboardAnimation())
-    .add(mapAnimation());
+    .add(dashboardAnimation(),"-=1")
+    .add(mapAnimation(),"sensors")
+    .add(dialsAnimation(),"sensors");
 
 //instantiate GSDevTools with default settings
 GSDevTools.create();

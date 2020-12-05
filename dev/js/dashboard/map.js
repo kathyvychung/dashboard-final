@@ -12,3 +12,7 @@ export function mapAnimation(){
         
     return mapTL;
 }
+
+    // timeline for repeating animations
+    // const aniRepeat = new gsap.timeline({repeat:1})
+    // aniRepeat.add(mapAnimation())

@@ -425,9 +425,8 @@ textarea {
 ============= */
 #svg-container {
   display: grid;
-  grid-template-columns: auto 90% auto;
+  grid-template-columns: auto 80% auto;
   grid-template-areas: ". svg-container .";
-  background-color: #000000;
 }
 #svg-container > div {
   grid-area: svg-container;
@@ -441,6 +440,10 @@ textarea {
   position: absolute;
   top: 0;
   left: 0;
+}
+#svg-container > div #background-color {
+  color: #000;
+  height: 100%;
 }
 #svg-container > div #myVideo {
   position: fixed;

@@ -1,8 +1,7 @@
 #svg-container{
     display: grid;
-    grid-template-columns: auto 90% auto;
+    grid-template-columns: auto 80% auto;
     grid-template-areas: ". svg-container .";
-    background-color: #000000;
 
     >div{
         grid-area: svg-container;
@@ -19,7 +18,13 @@
             left:0;
         }
 
+        #background-color {
+            color: #000;
+            height: 100%;
+        }
+
         #myVideo {
+            
             position: fixed;
             right: 0;
             bottom: 0;
