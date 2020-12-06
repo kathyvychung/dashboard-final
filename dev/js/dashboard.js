@@ -26,7 +26,7 @@ export function dashboardAnimation(){
                 //direction map
                 .to("#direction",{duration: 0.5, stroke:"#2DD4D6", fill:"#2DD4D6" },"third")
                 .from("#map",{duration: 1, x:-300},"third")
-                .to("#locate",{duration: 1, alpha:0},"third")
+                .to("#locate",{duration: 1, alpha:0},"third");
         
     return dashboardTL;
 }
