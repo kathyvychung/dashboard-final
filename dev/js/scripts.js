@@ -17,7 +17,7 @@ mainTL.add(loadingScreenAnimation())
     .add(dashboardAnimation(),"-=1")
     .add(mapAnimation(),"sensors")
     .add(dialsAnimation(),"sensors")
-    .add(timeMachineAnimation());
+    .add(timeMachineAnimation(),"-=1");
 
 //instantiate GSDevTools with default settings
 GSDevTools.create();

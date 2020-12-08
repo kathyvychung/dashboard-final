@@ -37,7 +37,7 @@
                           <tspan id="basic-time" x="0" y="13">12:06 pm</tspan>
                         </text>
                         <text transform="translate(815)" id="NOV.-10.-2020">
-                          <tspan x="0" y="13">NOV. 10. 2020</tspan>
+                          <tspan id="basic-time" x="0" y="13">NOV. 10. 2020</tspan>
                         </text>
                       </g>
                       <defs>
@@ -122,10 +122,10 @@
                       </g>
                       <g id="bottomText" transform="translate(725 571)" fill="#BFE5E9" fill-rule="nonzero" font-family="UniwarsSb-Regular, Uniwars" font-size="11" font-weight="500">
                         <text transform="translate(138)" id="MODE:-AUTOPILOT">
-                          <tspan x="0" y="10">MODE: AUTOPILOT</tspan>
+                          <tspan id="basic-bottom" x="0" y="10">MODE: AUTOPILOT</tspan>
                         </text>
                         <text transform="translate(0 1)" id="STATUS:-FLYING">
-                          <tspan x="0" y="10">STATUS: FLYING</tspan>
+                          <tspan id="basic-bottom" x="0" y="10">STATUS: FLYING</tspan>
                         </text>
                       </g>
                       <g id="barFill" transform="translate(22 568)">
@@ -313,7 +313,7 @@
                           </g>
                           <circle id="Oval" stroke="#00DCDA" stroke-width="10" opacity=".21" cx="108" cy="108.283" r="92"/>
                           <text id="99" font-family="UniwarsSb-Regular, Uniwars" font-size="36" font-weight="500" fill="#00DCDA">
-                            <tspan x="75" y="123">99</tspan>
+                            <tspan id="mph-text"x="75" y="123">99</tspan>
                           </text>
                           <text font-family="UniwarsSb-Regular, Uniwars" font-size="12" font-weight="500" fill="#00DCDA">
                             <tspan x="90" y="139">mph</tspan>
@@ -642,10 +642,23 @@
                                                 <tspan x="2" y="6">travel travel to:</tspan>
                                               </text>
                                             </g>
-                                            <path id="right-bar" fill="#F16B21" d="M247 501h12l-.178 120.241L247 628z"/>
-                                            <path id="left-bar" fill="#F16B21" d="M279 421h12l-.178 181.79L279 609.596z"/>
-                                            <path id="CP1" fill="#09EE23" d="M242 487h21v110h-21z"/>
-                                            <path id="CP2" fill="#09EE23" d="M274 406h21v154h-21z"/>
+                                            <defs>
+                                                <mask id="CP1">
+                                                    <path fill="#09EE23" d="M242 487h21v110h-21z"/>
+                                                </mask>
+                                              
+                                                <mask id="CP2">
+                                                    <path fill="#09EE23" d="M274 406h21v154h-21z"/>
+                                                </mask>
+                                              </defs>
+                                            
+                                            <g mask="url(#CP1)">
+                                                <path id="right-bar" fill="#F16B21" d="M247 501h12l-.178 120.241L247 628z"/>
+                                            </g>
+                                            <g mask="url(#CP2)">
+                                                <path id="left-bar" fill="#F16B21" d="M279 421h12l-.178 181.79L279 609.596z"/>
+                                            </g>
+                                            
                                           </g>
                                         </g>
                                       </g>

@@ -134,6 +134,14 @@
 		"oAP": "/dev/content/time-machine.html",
 		"oF": 0
 		},
+	"/dev/content/time-machine/loading-bars.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/content/time-machine/loading-bars.html",
+		"oF": 0
+		},
 	"/dev/global/head.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -220,6 +228,17 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/timeMachine-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/timeMachine/loading-bars.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dev/js/timeMachine/loading-bars-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
