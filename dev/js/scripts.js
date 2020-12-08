@@ -10,6 +10,7 @@ import { timeMachineAnimation } from "./timeMachine.js";
 gsap.registerPlugin(GSDevTools);
 
 // mapAnimation();
+// dialsAnimation();
 
 const mainTL = gsap.timeline();
 
