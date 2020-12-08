@@ -9,10 +9,9 @@ const dashboardTL = gsap.timeline();
 
 export function dashboardAnimation(){
     dashboardTL.from("#controlCenter",{duration: 1, y:1000},"first")
-                .from("#basic-time",0.5,{y:"-=50", alpha: 0, scrambleText:"xx/xx xx"},"first")
+                .to("#basic-time", {duration: 1, scrambleText:"THIS IS NEW TEXT"},"first")
                 .from("#borderCPLeft",{duration: 1, x: 1000},"first")
                 .from("#borderCPRight",{duration: 1, x: -1000},"first")
-                .from("#topText",{duration: 1, alpha: 0},"first")
                 .from("#hexagon",{duration: 1, drawSVG:"0%", ease:"none", alpha: 0},"first")
 
                 .from(".fuelTank",{duration: 1, alpha: 0, stagger: 1},"second")
