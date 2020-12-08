@@ -208,7 +208,7 @@
                               <circle class="gauges" id="Oval" stroke="#FFF" cx="41.447" cy="34.5" r="34"/>
                             </g>
                             <text id="43" fill="#B6E6EA" fill-rule="nonzero" font-family="UniwarsSb-Regular, Uniwars" font-size="18" font-weight="500">
-                              <tspan x="17.947" y="39">43</tspan>
+                              <tspan id="temp-text" x="17.947" y="39">43</tspan>
                             </text>
                             <path id="Path-4" fill="#A9E7EB" fill-rule="nonzero" d="M49.947 39l6.78-13 7.22 13h-7z"/>
                           </g>
@@ -390,7 +390,7 @@
                                 <circle class="beep" id="Oval-Copy-4" fill="#29BBBD" fill-rule="nonzero" cx="202.5" cy="64.5" r="3.5"/>
                                 <g id="LOCATION:-MANHATTAN," transform="translate(45 45)" fill="#FFF" font-family="UniwarsSb-Regular, Uniwars" font-weight="500">
                                   <text id="27.2038°-n-77.5011°" font-size="6">
-                                    <tspan x="1" y="38">27.2038° n</tspan> <tspan x="1" y="46">77.5011° e</tspan>
+                                    <tspan x="5" y="38">27.2038° n</tspan> <tspan x="5" y="46">77.5011° e</tspan>
                                   </text>
                                   <text id="LOCATION:" fill-rule="nonzero" font-size="7">
                                     <tspan x="0" y="6">LOCATION:</tspan>
@@ -611,15 +611,18 @@
                                               <path d="M34.619 73.15c-.882 1.373-2.36 1.394-4.434.064-.496-.318-.785-.784-.866-1.399a2.443 2.443 0 01.396-1.64c.865-1.347 2.32-1.364 4.368-.052.506.324.808.775.907 1.352.1.576-.025 1.134-.371 1.674m-9.14-5.559c-.352.55-.807.898-1.366 1.047-.558.148-1.09.061-1.595-.264a3.124 3.124 0 00-.49-.23 3.153 3.153 0 01-.504-.238 1.838 1.838 0 01-.867-1.354c-.082-.584.044-1.137.38-1.66.854-1.328 2.157-1.43 3.912-.305.505.324.807.771.904 1.34.099.569-.026 1.124-.373 1.664" id="Fill-121"/>
                                             </g>
                                             <path d="M198.687 292.617c-51.357 0-93.14-41.761-93.14-93.093 0-46.143 33.747-85.149 79.008-92.021l14.107 14.1 14.114-14.11c45.306 6.853 79.053 45.817 79.053 92.031 0 51.332-41.784 93.093-93.142 93.093M187.44 104.73c-48.032 5.635-84.252 46.388-84.252 94.795 0 52.632 42.84 95.452 95.499 95.452 52.66 0 95.502-42.82 95.502-95.452 0-48.578-36.366-89.35-84.591-94.836a97.558 97.558 0 00-22.158.04z" id="inner-timer" fill="#00D8D8"/>
-                                            <text id="NOV" font-family="UniwarsSb-Regular, Uniwars" font-size="18" font-weight="500" letter-spacing=".797" fill="#00D8D8">
-                                              <tspan x="172" y="200">N</tspan> <tspan x="190.311" y="200" letter-spacing="-.031">OV</tspan>
+                                            <text font-family="UniwarsSb-Regular, Uniwars" font-size="18" font-weight="500" letter-spacing=".797" fill="#00D8D8">
+                                               <tspan id="clock-month-text" x="172" y="200" letter-spacing="-.031">NOV</tspan>
                                             </text>
                                           </g>
                                           <g id="date" transform="translate(-21 -193)">
                                             <path id="timeMachineLine" stroke="#BFE5E9" stroke-width="3" d="M161.75.25v277l185 106.766v213.532l-185 106.766V982.75"/>
-                                            <path id="Fill-1" fill="#FF5200" opacity=".354" d="M161.315 305L0 398.136v186.272l161.316 93.134 161.315-93.135V398.136z"/>
+                                            <path id="date-background" fill="#FF5200" opacity=".354" d="M161.315 305L0 398.136v186.272l161.316 93.134 161.315-93.135V398.136z"/>
                                             <g id="travelButton" transform="translate(58 560)">
-                                              <rect id="button-travel" stroke="#00DCDA" fill-opacity=".38" fill="#00DCDA" x=".5" y=".5" width="77" height="24" rx="8"/>
+                                              <g id="buttonTM">
+                                                <rect stroke="#00DCDA" fill-opacity=".38" fill="#00DCDA" x=".5" y=".5" width="77" height="24" rx="8"/>
+                                              </g>
+                                              
                                               <text id="TRAVEL" font-family="UniwarsSb-Regular, Uniwars" font-size="10" font-weight="500" letter-spacing=".443" fill="#FFF">
                                                 <tspan x="11" y="16">TRAVEL</tspan>
                                               </text>
@@ -636,10 +639,10 @@
                                             <g id="past" transform="translate(53 498)">
                                               <rect id="Rectangle-Copy-3" fill="#FFF" x="0" y="36" width="132" height="3" rx="1.5"/>
                                               <text id="12/05/2007" font-family="UniwarsSb-Regular, Uniwars" font-size="10" font-weight="500" letter-spacing=".443" fill="#FFF">
-                                                <tspan x="8" y="33">12/05/2007</tspan>
+                                                <tspan id="past-text" x="8" y="33">03/23/2007</tspan>
                                               </text>
                                               <text id="travel-travel-to:" font-family="UniwarsSb-Regular, Uniwars" font-size="7" font-weight="500" letter-spacing=".31" fill="#F9A445">
-                                                <tspan id="past-text" x="2" y="6">travel travel to:</tspan>
+                                                <tspan x="2" y="6">travel travel to:</tspan>
                                               </text>
                                             </g>
                                             <defs>
@@ -663,6 +666,8 @@
                                         </g>
                                       </g>
                                     </svg>
+                                    
+                                    <!-- <tspan x="172" y="200">N</tspan> -->
 
         </div>
     </section>

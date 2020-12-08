@@ -1,9 +1,11 @@
 import { gsap } from "gsap";
 import { DrawSVGPlugin } from "gsap/DrawSVGPlugin"; 
+import { ScrambleTextPlugin } from "gsap/ScrambleTextPlugin";
 // import { SplitText } from "gsap/SplitText";
 
 // gsap.registerPlugin(SplitText);
 gsap.registerPlugin(DrawSVGPlugin);
+gsap.registerPlugin(ScrambleTextPlugin);
 
 const timeMachineTL = gsap.timeline();
 
@@ -15,7 +17,11 @@ export function timeMachineAnimation(){
                 .from("#tickMarks",{duration: 2, alpha: 0, rotation: 360, transformOrigin: "50% 50%"},"spin")
                 .from("#inner-timer",{duration: 2, alpha: 0, rotation: -180, transformOrigin: "50% 50%"},"spin")
                 .from("#outer-timer",{duration: 2, alpha: 0, rotation: -360, transformOrigin: "50% 50%"},"spin")
-                .to("#button-travel",{duration: 1, fill:"#2DD4D6"});
+                .from("#past-text", {duration: 1, scrambleText:"11/10/2020"})
+                .to("#buttonTM",{duration: 1, opacity:1})
+                .to("#clock-month-text", {duration: 1, scrambleText:"MAR"},"past")
+                .to("#outer-timer",{duration: 2, rotation: 170, transformOrigin: "50% 50%"},"past")
+                .to("#inner-timer",{duration: 2, rotation: 90, transformOrigin: "50% 50%"},"past");
         
     return timeMachineTL;
 }
