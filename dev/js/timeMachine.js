@@ -18,13 +18,13 @@ export function timeMachineAnimation(){
                 .from("#inner-timer",{duration: 2, alpha: 0, rotation: -180, transformOrigin: "50% 50%"},"spin")
                 .from("#outer-timer",{duration: 2, alpha: 0, rotation: -360, transformOrigin: "50% 50%"},"spin")
                 .from("#past-text", {duration: 1, scrambleText:"11/10/2020"})
-                .to("#buttonTM",{duration: 0.5, fillOpacity: 1, delay: 1})
+                .to("#buttonTM",{duration: 0.1, fillOpacity: 1, delay: 1})
                 .to("#clock-month-text", {duration: 1, scrambleText:"MAR"},"past")
                 .to("#outer-timer",{duration: 2, rotation: 170, transformOrigin: "50% 50%"},"past")
                 .to("#inner-timer",{duration: 2, rotation: 90, transformOrigin: "50% 50%"},"past")
-                .to("#right-bar",{duration: 2, y: 50, yoyo:true, repeat:5},"spin","past")
-                .from("#left-bar",{duration: 2, y: 80, yoyo:true, repeat:5},"spin","past")
-                .to("#myVideo2",{duration: 0.5, alpha: 0});
+                .to("#right-bar",{duration: 2, y: 50, yoyo:true, repeat:3},"spin","past","teleport")
+                .from("#left-bar",{duration: 2, y: 80, yoyo:true, repeat:3},"spin","past","teleport")
+                .to("#myVideo2",{duration: 0.1, alpha: 0},"teleport");
         
     return timeMachineTL;
 }

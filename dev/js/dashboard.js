@@ -12,6 +12,7 @@ export function dashboardAnimation(){
                 .from("#basic-time", {duration: 1, alpha: 0, scrambleText:"01010"},"first")
                 .from("#borderCPLeft",{duration: 1, x: 1000},"first")
                 .from("#borderCPRight",{duration: 1, x: -1000},"first")
+                .from("#barFill",{duration: 1, alpha: 0},"first")
                 .from("#hexagon",{duration: 1, drawSVG:"0%", ease:"none", alpha: 0},"first")
                 .from("topText",{duration: 1, alpha: 0},"first")
                 
@@ -27,6 +28,7 @@ export function dashboardAnimation(){
                 .from(".gauges",{duration: 1, drawSVG:"0%", ease:"none", alpha: 0, stagger: 1},"second")
                 .from("#circleGauges",{duration: 1, alpha: 0, stagger: 1},"second")
                 .from("#orange-load",{duration: 1, rotation: 360, transformOrigin: "50% 0%", alpha: 0, stagger: 1},"second")
+                .to("#temp-text", {duration: 4, scrambleText:{chars:"0123456789"}},"second")
 
                 //direction map
                 .to("#direction",{duration: 0.5, stroke:"#2DD4D6", fill:"#2DD4D6" },"third")

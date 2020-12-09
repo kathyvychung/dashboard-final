@@ -12,7 +12,7 @@ export function mapAnimation(){
         .to("#locate",{duration: 1, x: 60, y: 20})
         .to("#locate",{duration: 1, x: -30, y: -40},"beep")
         // .to(".beep",{duration: 1, alpha:0, repeat:3})
-        .from("#coordinates", {duration: 4, scrambleText:{chars:"0123456789"}},"second");
+        .to("#coordinates", {duration: 2, scrambleText:{chars:"0123456789"}},"second");
         
     return mapTL;
 }
