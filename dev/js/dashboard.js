@@ -22,7 +22,7 @@ export function dashboardAnimation(){
                 .from("#meterStick",{duration: 4, alpha: 0, rotation: 720, transformOrigin: "left bottom"},"second")
                 .from("#outer-ring",{duration: 3, alpha: 0, rotation: 360, transformOrigin: "50% 50%"},"second")
                 .from("#inner-ring",{duration: 3, alpha: 0, rotation: -360, transformOrigin: "50% 50%"},"second")
-                .from("#mph-text", {duration: 4, scrambleText:{text:"0", chars:"0123456789"}},"second")
+                .from("#mph-text", {duration: 4, scrambleText:{text:"00", chars:"0123456789"}},"second")
                 
                 .from(".gauges",{duration: 1, drawSVG:"0%", ease:"none", alpha: 0, stagger: 1},"second")
                 .from("#circleGauges",{duration: 1, alpha: 0, stagger: 1},"second")

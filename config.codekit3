@@ -35,6 +35,14 @@
 		"oAP": "/deploy/img/background.mp4",
 		"oF": 0
 		},
+	"/deploy/img/past.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/past.mp4",
+		"oF": 0
+		},
 	"/deploy/img/present.mp4": {
 		"cB": 0,
 		"ft": 8192,
