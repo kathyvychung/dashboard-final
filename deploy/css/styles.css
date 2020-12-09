@@ -451,3 +451,9 @@ textarea {
   bottom: 0;
   height: 100%;
 }
+#svg-container > div #myVideo2 {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+}

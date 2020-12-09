@@ -51,6 +51,14 @@
 		"oAP": "/deploy/img/present.mp4",
 		"oF": 0
 		},
+	"/deploy/img/rain.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/rain.mp4",
+		"oF": 0
+		},
 	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,

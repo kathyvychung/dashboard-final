@@ -24,7 +24,7 @@ export function timeMachineAnimation(){
                 .to("#inner-timer",{duration: 2, rotation: 90, transformOrigin: "50% 50%"},"past")
                 .to("#right-bar",{duration: 2, y: 50, yoyo:true, repeat:5},"spin","past")
                 .from("#left-bar",{duration: 2, y: 80, yoyo:true, repeat:5},"spin","past")
-                .to("#myVideo",{duration: 2, alpha: 0});
+                .to("#myVideo2",{duration: 0.5, alpha: 0});
         
     return timeMachineTL;
 }
