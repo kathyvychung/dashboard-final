@@ -29,7 +29,19 @@ export function timeMachineAnimation(){
 
                 //back to homepage
                 .to("#time-machine",{duration: 2, y:3000},"home")
-                .to("#dashboard",{duration: 2, y:0},"-=3");
+                .to("#sun",{duration: 2, alpha: 0},"home")
+                .to("#rain",{duration: 2, alpha: 1},"home")
+                .to("#dashboard",{duration: 2, y:0},"-=3")
+                .to("#clock-icon",{duration: 0.1, stroke:"#BFE5E9", fill:"none"},"home")
+                .to("#outer-ring",{duration: 0.7, alpha: 0, yoyo:true, repeat:5},"beep")
+                .to("#scan",{duration: 1, alpha: 0, yoyo:true, repeat:5},"beep")
+                .from(".beep",{duration: 1, alpha:0, yoyo:true, repeat:3},"beep")
+                .to("#mph-text", {duration: 4, scrambleText:{text:"78", chars:"0123456789"}},"beep")
+                .to("#temp-text", {duration: 4, scrambleText:{text:"36", chars:"0123456789"}},"beep")
+                
+                .to(".gauges",{duration: 1, drawSVG:"100%", ease:"none", stagger: 1},"beep")
+                .to("#circleGauges",{duration: 1, stagger: 1},"beep")
+                .to("#orange-load",{duration: 1, rotation: 360, transformOrigin: "50% 0%", stagger: 1},"beep");
 
         
     return timeMachineTL;
