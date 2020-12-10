@@ -30,7 +30,7 @@ export function timeMachineAnimation(){
                 //back to homepage
                 .to("#time-machine",{duration: 2, y:3000},"home")
                 .to("#sun",{duration: 2, alpha: 0},"home")
-                .to("#rain",{duration: 2, alpha: 1},"home")
+                .from("#rain",{duration: 2, alpha: 0},"home")
                 .to("#dashboard",{duration: 2, y:0},"-=3")
                 .to("#clock-icon",{duration: 0.1, stroke:"#BFE5E9", fill:"none"},"home")
                 .to("#outer-ring",{duration: 0.7, alpha: 0, yoyo:true, repeat:5},"beep")
