@@ -384,24 +384,21 @@ ul li {
     Typography
 ============= */
 h1, h2, h3, h4 {
-  font-family: uniwars, sans-serif;
-  font-style: normal;
+  font-family: "Orbitron", sans-serif;
   font-weight: 600;
   margin: 0;
   padding: 0;
 }
 
 p {
-  font-family: uniwars, sans-serif;
-  font-style: normal;
+  font-family: "Orbitron", sans-serif;
   font-weight: 600;
   margin: 0;
   padding: 0;
 }
 
 tspan {
-  font-family: uniwars, sans-serif;
-  font-style: normal;
+  font-family: "Orbitron", sans-serif;
   font-weight: 600;
 }
 
@@ -453,18 +450,16 @@ textarea {
   top: 0;
   left: 0;
 }
-#svg-container > div #background-color {
-  color: #000;
-  height: 100%;
-}
 #svg-container > div #myVideo {
   position: fixed;
+  left: 0;
   right: 0;
   bottom: 0;
   height: 100%;
 }
 #svg-container > div #myVideo2 {
   position: fixed;
+  left: 0;
   right: 0;
   bottom: 0;
   height: 100%;

@@ -24,7 +24,13 @@ export function timeMachineAnimation(){
                 .to("#inner-timer",{duration: 2, rotation: 90, transformOrigin: "50% 50%"},"past")
                 .to("#right-bar",{duration: 2, y: 50, yoyo:true, repeat:3},"spin","past","teleport")
                 .from("#left-bar",{duration: 2, y: 80, yoyo:true, repeat:3},"spin","past","teleport")
-                .to("#myVideo2",{duration: 0.1, alpha: 0},"teleport");
+                .to("#myVideo2",{duration: 0.1, alpha: 0},"teleport")
+                .to("#time-machine",{duration: 0.1, x:10, yoyo: true, repeat: 3},"teleport")
+
+                //back to homepage
+                .to("#time-machine",{duration: 2, y:3000},"home")
+                .to("#dashboard",{duration: 2, y:0},"-=3");
+
         
     return timeMachineTL;
 }
