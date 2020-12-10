@@ -11,8 +11,8 @@ export function mapAnimation(){
     mapTL.to("#locate",{duration: 1, alpha:1})
         .to("#locate",{duration: 1, x: 60, y: 20})
         .to("#locate",{duration: 1, x: -30, y: -40},"beep")
-        // .to(".beep",{duration: 1, alpha:0, repeat:3})
-        .to("#coordinates", {duration: 2, scrambleText:{chars:"0123456789"}},"second");
+        .from(".beep",{duration: 1, alpha:0, yoyo: true, repeat:3},"beep")
+        .to("#coordinates", {duration: 2, scrambleText:{chars:"0123456789"}},"beep");
         
     return mapTL;
 }

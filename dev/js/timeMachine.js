@@ -35,7 +35,7 @@ export function timeMachineAnimation(){
                 .to("#clock-icon",{duration: 0.1, stroke:"#BFE5E9", fill:"none"},"home")
                 .to("#outer-ring",{duration: 0.7, alpha: 0, yoyo:true, repeat:5},"beep")
                 .to("#scan",{duration: 1, alpha: 0, yoyo:true, repeat:5},"beep")
-                .from(".beep",{duration: 1, alpha:0, yoyo:true, repeat:3},"beep")
+                .to(".beep",{duration: 1, alpha:1, yoyo:true, repeat:3},"beep")
                 .to("#mph-text", {duration: 4, scrambleText:{text:"78", chars:"0123456789"}},"beep")
                 .to("#temp-text", {duration: 4, scrambleText:{text:"36", chars:"0123456789"}},"beep")
                 
